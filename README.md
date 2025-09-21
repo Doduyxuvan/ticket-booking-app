@@ -23,11 +23,10 @@ Project ini dibuat untuk latihan dan portofolio dalam membangun aplikasi client-
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-### Login Page
-## 📸 Screenshots
-![Home](screenshots/portofolio_pemesanan_tiket)
+![Portfolio](screenshots/portofolio_pemesanan_tiket.jpg)
+
 
 
 > Letakkan semua gambar di folder: `screenshots/`  
