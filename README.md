@@ -1,36 +1,41 @@
-# 🎟️ Aplikasi Pemesanan Tiket
+# 🎟️ Ticket Booking App  
 
-Aplikasi Android untuk pemesanan tiket transportasi (Pesawat, Kereta, Kapal) menggunakan **Kotlin** sebagai frontend, dan **PHP + MySQL** sebagai backend (REST API).  
-Proyek ini dibuat untuk mempelajari integrasi antara aplikasi Android dan server API berbasis PHP.
+Aplikasi **pemesanan tiket** berbasis **Android (Kotlin)** dengan **API PHP & MySQL** sebagai backend.  
+Project ini dibuat untuk latihan dan portofolio dalam membangun aplikasi client-server.  
 
 ---
 
-## 🚀 Fitur Utama
-- ✈️ Pemesanan tiket pesawat  
-- 🚆 Pemesanan tiket kereta  
-- 🚢 Pemesanan tiket kapal  
-- 📝 Input & validasi data penumpang  
-- 📜 Riwayat pemesanan (History)  
-- 🔐 Login & Register user dengan MySQL  
+## 🚀 Features
+- Login & Register (via API PHP & MySQL)  
+- Pemesanan tiket (pesawat, kapal, kereta)  
+- Riwayat transaksi  
+- Integrasi API dengan Retrofit  
+- Database MySQL (backend)  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** Kotlin (Android Studio)  
+- **Frontend (Mobile):** Kotlin (Android Studio)  
 - **Backend API:** PHP (XAMPP)  
 - **Database:** MySQL  
-- **Networking:** Retrofit2 (JSON)  
+- **Networking:** Retrofit2 + Gson  
+- **Authentication:** PHP session / token  
 
 ---
 
-## 📂 Struktur Project
-- `app/` → Source code Android (Kotlin)  
-- `api/` → File PHP untuk API (login.php, register.php, insert_pesawat.php, dll)  
-- `database/` → File SQL (struktur tabel `users999`, `pesawat`, dll)  
+## 📸 Screenshots
+
+### Login Page
+<img src="screenshots/portofolio_pemesanan_tiket.jpg" alt="Login" width="300"/>
+
+
+> Letakkan semua gambar di folder: `screenshots/`  
 
 ---
 
-## ⚡ Cara Menjalankan
-1. Clone repository ini  
+## ⚙️ Installation
+
+1. **Clone repo ini**
    ```bash
-   git clone https://github.com/Doduyxuvan/nama-repo.git
+   git clone https://github.com/Doduyxuvan/ticket-booking-app.git
+   cd ticket-booking-app
