@@ -26,7 +26,8 @@ Project ini dibuat untuk latihan dan portofolio dalam membangun aplikasi client-
 ## 📸 Screenshots
 
 ### Login Page
-<img src="screenshots/portofolio_pemesanan_tiket.jpg" alt="Login" width="300"/>
+## 📸 Screenshots
+![Home](screenshots/portofolio_pemesanan_tiket)
 
 
 > Letakkan semua gambar di folder: `screenshots/`  
